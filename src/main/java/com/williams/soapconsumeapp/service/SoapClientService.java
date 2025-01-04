@@ -11,7 +11,7 @@ import org.springframework.ws.client.core.WebServiceTemplate;
 public class SoapClientService {
 
 //    @Autowired
-    private WebServiceTemplate webServiceTemplate;
+    private final WebServiceTemplate webServiceTemplate;
 
     public SoapClientService(WebServiceTemplate webServiceTemplate) {
         this.webServiceTemplate = webServiceTemplate;
