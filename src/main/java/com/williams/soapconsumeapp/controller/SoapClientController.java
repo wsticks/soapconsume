@@ -8,6 +8,9 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/soap")
 public class SoapClientController {
 
+//    the link to the resource for reference
+//    "https://blog.simprasuite.com/consuming-soap-services-with-wsdl-using-spring-boot-and-maven-889b955e9125"
+
     @Autowired
     private SoapClientService soapClientService;
 
